@@ -18,10 +18,10 @@
     ],
     "pluginsConfig": {
         "insert-logo": {
-            "url": "icon.jpg",
+            "url": "./icon.jpg",
             "style": "background: none; max-height: 30px; min-height: 30px"
         },
-        "favicon": "./icon/book.ico",
+        "favicon": "./icon.jpg",
         "tbfed-pagefooter": {
             "copyright": "Copyright &copy IndieClub 2021",
             "modify_label": "该文章修订时间：",
