@@ -29,3 +29,6 @@ sleep 1
 # 如果文章非常多,那么这个20可以改多一些
 runBook& sleep 20
 fixBug
+
+echo 如果出现端口占用请查阅
+echo https://jingyan.baidu.com/article/fdffd1f89a0c8af3e98ca10e.html
