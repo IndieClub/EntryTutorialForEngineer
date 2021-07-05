@@ -22,3 +22,9 @@ https://blog.csdn.net/wltsysterm/article/details/104442439
 
 请发送您的简历至**jasonwidsom143@163.com**  
 如果没有及时回复,请开一个Issue
+
+## git-bash中文乱码
+
+```bash
+git config --global core.quotepath false
+```
