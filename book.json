@@ -1,6 +1,7 @@
 {
     "plugins": [
         "back-to-top-button",
+        "include-codeblock",
         "chapter-fold",
         "code",
         "splitter",
@@ -13,10 +14,14 @@
         "tbfed-pagefooter",
         "popup",
         "-sharing",
-        "multilingual-index",
+        "custom-index",
         "sharing-plus"
+        
     ],
     "pluginsConfig": {
+        "custom-index": {
+            "index": "index-to-replace.html"
+        },
         "insert-logo": {
             "url": "./icon.jpg",
             "style": "background: none; max-height: 30px; min-height: 30px"
@@ -52,8 +57,9 @@
             ]
         },
         "multilingual-index": {
-            "enableSuper": false,
-            "index":"index.html"
+            "enableSuper": true,
+            "index":"my-index.html"
         }
+        
     }
 }
